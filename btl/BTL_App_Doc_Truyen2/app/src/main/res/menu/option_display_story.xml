@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/option_display_story">
+    <item
+        android:id="@+id/itemFontChange"
+        android:icon="@drawable/ic_font_change"
+        android:title="Font"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemFontSize"
+        android:icon="@drawable/ic_font_size"
+        android:title="Size"
+        app:showAsAction="always"/>
+</menu>

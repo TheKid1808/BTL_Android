@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoryDetail"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="40sp"
+        android:weightSum="10">
+
+
+        <ImageView
+            android:id="@+id/imgStoryImage"
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:layout_weight="1"
+            tools:src="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="9"
+            android:weightSum="12"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textStoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="Tên Truyện: " />
+
+            <TextView
+                android:id="@+id/txtStoryID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ID: " />
+
+            <TextView
+                android:id="@+id/txtStoryAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:text="Tác giả: " />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="8sp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10sp"
+        android:layout_marginHorizontal="7sp"
+        android:text="ĐỌC"
+        android:textSize="20sp"/>
+</LinearLayout>
